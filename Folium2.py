@@ -12,7 +12,7 @@ tooltip = "Click me!"
 folium.Marker(
     [35.19023118026066, 128.12735035794333],
     popup="한국폴리텍대학 진주캠퍼스",
-    tooltip=tooltip
+    tooltip=tooltip      
 ).add_to(m)
 
 # 지도를 HTML 파일로 저장
